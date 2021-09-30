@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::after,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d1bf85;
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #d1bf85;
+}
+
+.quote-text {
+    padding: 15px 50px; 
+    font-size: 25px;
+    color: black;
+    min-height: 300px;
+}
+
+.control {
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.button {
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.new-quote {
+    background-color: #4d2c10;
+    margin-bottom: 10px;
+}
+
+.tweeter {
+    background-color: #11a4ff ;
+}
